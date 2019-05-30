@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Ombori code test",
-    "slug": "ombori",
+    "name": "ombori code test",
+    "slug": "rn-listing",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -24,6 +24,7 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "listing using api with lazy loading"
   }
 }

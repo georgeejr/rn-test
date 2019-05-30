@@ -111,8 +111,8 @@ export default class HomeScreen extends React.Component {
           <FlatList
             data={dataSource}
             renderItem={this._renderItem}
-            keyExtractor={(item, index) => index}
-            bounces={false}
+            keyExtractor={(item, index) => index.toString()}
+            // bounces={false}
             onEndReached={debounce(this._handleLoadMore, 500)}
             onEndReachedThreshold={0.01}
             ListFooterComponent={this._renderLoadMore}
